@@ -141,6 +141,16 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlphabetGenerator.h" />
+    <ClInclude Include="NumberDecorator.h" />
+    <ClInclude Include="StringGenerator.h" />
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Rain.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SpecialCharDecorator.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
